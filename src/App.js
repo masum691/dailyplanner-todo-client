@@ -19,7 +19,7 @@ function App() {
             <Route path="/add-item">
               <AddList></AddList>
             </Route>
-            <Route path="/update">
+            <Route path="/update/:id">
               <UpdateList></UpdateList>
             </Route>
           </Switch>
