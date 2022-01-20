@@ -13,7 +13,7 @@ const UpdateList = () => {
         .then(data => setUlist(data))
     } ,[])
 
-    
+
     const handleName = e => {
         const updateName = e.target.value;
         const updateNm = {name: updateName, email: uList.email}
@@ -25,7 +25,22 @@ const UpdateList = () => {
         setUlist(updateEm)
     }
     const handleUpdateSubmit = e => {
-
+        const url = `http://localhost:5000/mytodo/${id}`;
+        fetch(url, {
+            method: 'PUT',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(uList)
+        })
+        .then(res => res.json())
+        .then(data => {
+            if(data.modifiedCount > 0){
+                alert('Updated successfully')
+                setUlist({})
+            }
+        })
+        e.preventDefault();
     }
     return (
         <div>
