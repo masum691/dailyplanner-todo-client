@@ -1,28 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AllLists from '../../Home/AllLists/AllLists';
+import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <Link to="/home">Home</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link to="/add-item">Add item</Link>
-                            </li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </nav>
+        <div className='nav-container row align-items-center text-center'>
+            
+            <div className='col-sm-12 col-md-6 col-lg-6'>
+                <nav>
+                    <ul>
+                        <li class="nav-item">
+                            <Link to="/home">Home</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/add-item">Add item</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <AllLists></AllLists>
         </div>
     );
 };

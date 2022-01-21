@@ -1,0 +1,14 @@
+.add-container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    margin-top: 44px;
+    padding: 33px 22px;
+}
+.add-container input, select{
+    border: 0px;
+    box-shadow: 10px 10px 30px rgb(234, 238, 240);
+    padding: 11px 6px;
+    margin-left: 10px;
+    border-radius: 6px;
+}

@@ -1,4 +1,13 @@
-/* .home-container{
+
+.width-container{
+    width: 100%;
+    background-color: #f1f2f6;
+    /* height: 100vh; */
+}
+.home-container{
     width: 50%;
     margin: 0 auto;
-} */
+    background-color: #f1f2f6;
+    box-shadow: 10px 10px 40px rgb(245, 245, 245);
+    padding: 33px;
+}

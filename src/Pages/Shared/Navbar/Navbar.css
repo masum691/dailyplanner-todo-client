@@ -1,0 +1,32 @@
+.my-img{
+    width: 160px;
+    border: 6px solid #FFFFFF;
+    /* box-shadow: 10px 10px 40px rgb(236, 236, 236); */
+    border-radius: 50%;
+}
+.nav-container{
+    /* background-color: #8854d0;
+    color: #FFFFFF; */
+    box-shadow: 10px 10px 30px rgb(235, 229, 229);
+    padding: 33px 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    color: #000000;
+    /* padding: 8px 8px; */
+    /* background-color: #FFFFFF; */
+    /* box-shadow: 10px 10px 30px rgb(218, 229, 233); */
+    /* border-radius: 6px; */
+}
+.nav-container ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 22px;
+    font-weight: 600;
+}
+.nav-container p{
+    font-weight: 600;
+    font-size: 13px;
+}

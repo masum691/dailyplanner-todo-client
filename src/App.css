@@ -27,7 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-.app-container{
+/* .app-container{
   width: 50%;
   margin: 0 auto;
   background-color: #ffffff;
@@ -35,7 +35,7 @@
 .app-main{
   background-color: #f1f2f6;
   height: 100vh;
-}
+} */
 
 @keyframes App-logo-spin {
   from {

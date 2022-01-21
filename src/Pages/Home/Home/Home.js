@@ -5,9 +5,11 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className='home-container'>
+        <div className='width-container'>
+            <div className="home-container">
             <Navbar></Navbar>
-            <AllLists></AllLists>
+            {/* <AllLists></AllLists> */}
+            </div>
         </div>
     );
 };
