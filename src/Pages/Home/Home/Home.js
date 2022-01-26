@@ -8,7 +8,6 @@ const Home = () => {
         <div className='width-container'>
             <div className="home-container">
             <Navbar></Navbar>
-            {/* <AllLists></AllLists> */}
             </div>
         </div>
     );
